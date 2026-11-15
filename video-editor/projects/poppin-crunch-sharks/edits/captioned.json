@@ -1,0 +1,152 @@
+{
+  "composition": "CaptionedClip",
+  "editName": "Poppin Crunch Sharks - Aesthetic Captions",
+  "src": "media/poppin-crunch-sharks/01-sharks.mp4",
+  "durationSec": 17,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "volume": 1,
+  "theme": {
+    "accent": "#1D8FE1",
+    "accentOnDark": "#A6E6FF",
+    "inkLight": "#FFFFFF",
+    "inkDark": "#0C2D57"
+  },
+  "captions": [
+    {
+      "name": "listen",
+      "startSec": 0.25,
+      "endSec": 1.55,
+      "top": 495,
+      "align": "center",
+      "tone": "light",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "listen to that crunch",
+          "font": "script",
+          "size": 104,
+          "color": "accent"
+        }
+      ]
+    },
+    {
+      "name": "sweet",
+      "startSec": 1.62,
+      "endSec": 3.2,
+      "top": 215,
+      "align": "center",
+      "tone": "dark",
+      "lines": [
+        {
+          "text": "a little sweet,",
+          "font": "serif",
+          "size": 112
+        }
+      ]
+    },
+    {
+      "name": "crunch",
+      "startSec": 3.28,
+      "endSec": 5.27,
+      "top": 1455,
+      "align": "center",
+      "tone": "dark",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "a lot of crunch",
+          "font": "serif",
+          "size": 104
+        }
+      ]
+    },
+    {
+      "name": "frosted",
+      "startSec": 6.3,
+      "endSec": 8.95,
+      "top": 172,
+      "align": "center",
+      "tone": "dark",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "frosted like fresh snow",
+          "font": "caps",
+          "size": 34
+        }
+      ]
+    },
+    {
+      "name": "crunch-first",
+      "startSec": 9.05,
+      "endSec": 10.55,
+      "top": 330,
+      "align": "right",
+      "tone": "light",
+      "lines": [
+        {
+          "text": "crunch first,",
+          "font": "serif",
+          "size": 104
+        }
+      ]
+    },
+    {
+      "name": "gummy-center",
+      "startSec": 10.65,
+      "endSec": 13.1,
+      "top": 1390,
+      "align": "center",
+      "tone": "dark",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "then the soft",
+          "font": "serif",
+          "size": 84
+        },
+        {
+          "text": "gummy center",
+          "font": "script",
+          "size": 132,
+          "color": "accent"
+        }
+      ]
+    },
+    {
+      "name": "obsessed",
+      "startSec": 13.16,
+      "endSec": 14.15,
+      "top": 430,
+      "align": "right",
+      "tone": "light",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "obsessed.",
+          "font": "script",
+          "size": 180,
+          "color": "accent"
+        }
+      ]
+    },
+    {
+      "name": "favorite",
+      "startSec": 14.25,
+      "endSec": 16.25,
+      "top": 172,
+      "align": "center",
+      "tone": "dark",
+      "sparkles": true,
+      "lines": [
+        {
+          "text": "your new favorite snack",
+          "font": "caps",
+          "size": 36
+        }
+      ]
+    }
+  ]
+}

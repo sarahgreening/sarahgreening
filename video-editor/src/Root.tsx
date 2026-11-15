@@ -1,6 +1,9 @@
 import { Composition, Folder } from "remotion";
 import { calculateProductVideoMetadata, ProductVideo } from "./ProductVideo";
 import type { EditSpec } from "./types";
+import { CaptionedClip, calculateCaptionedClipMetadata } from "./captioned/CaptionedClip";
+import type { CaptionedClipProps } from "./captioned/types";
+import captionedSample from "../projects/poppin-crunch-sharks/edits/captioned.json";
 // Written by `npm run plan -- <project>`: the three edits of the last planned
 // project, so you can preview and tweak them in Remotion Studio.
 import preview from "./studio-preview.json";
@@ -50,6 +53,17 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={edits[2]}
         calculateMetadata={calculateProductVideoMetadata}
+      />
+      {/* Existing video + designed captions (props passed at render time). */}
+      <Composition
+        id="CaptionedClip"
+        component={CaptionedClip}
+        durationInFrames={510}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={captionedSample as unknown as CaptionedClipProps}
+        calculateMetadata={calculateCaptionedClipMetadata}
       />
     </Folder>
   );

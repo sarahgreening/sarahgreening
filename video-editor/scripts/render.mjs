@@ -97,10 +97,12 @@ function previews(file, spec, key, durationSec) {
   fs.mkdirSync(dir, { recursive: true });
   const moments = [
     ["hook", Math.min(0.8, durationSec / 4)],
-    ["title-card", spec.titleCard.startSec + spec.titleCard.durationSec / 2],
-    ["25pct", durationSec * 0.25],
+    ...(spec.titleCard ? [["title-card", spec.titleCard.startSec + spec.titleCard.durationSec / 2]] : []),
+    // captioned clips: one frame in the middle of every caption
+    ...(spec.captions ?? []).filter((c) => c.lines).map((c) => [`caption-${c.name}`, (c.startSec + c.endSec) / 2]),
+    ...(spec.titleCard ? [["25pct", durationSec * 0.25]] : []),
     ["50pct", durationSec * 0.5],
-    ["75pct", durationSec * 0.75],
+    ...(spec.titleCard ? [["75pct", durationSec * 0.75]] : []),
     ["end-card", durationSec - 0.6],
   ];
   const files = [];
@@ -128,7 +130,7 @@ for (const f of editFiles) {
   const key = path.basename(f, ".json");
   const spec = readJson(path.join(editsDir, f));
   const outputLocation = path.join(out, `${P}-${key}.mp4`);
-  const composition = await selectComposition({ serveUrl, id: "ProductVideo", inputProps: spec, browserExecutable, logLevel });
+  const composition = await selectComposition({ serveUrl, id: spec.composition ?? "ProductVideo", inputProps: spec, browserExecutable, logLevel });
   console.log(`• Rendering ${spec.editName} → ${path.relative(ROOT, outputLocation)} (${composition.durationInFrames} frames)`);
   const t0 = Date.now();
   let last = -1;
