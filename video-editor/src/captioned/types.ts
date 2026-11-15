@@ -3,6 +3,7 @@
 export type CaptionFont = "serif" | "script" | "caps";
 
 export type CaptionLine = {
+  /** Wrap a word in *asterisks* to highlight it with the accent colour + underline swoosh. Emoji pop and wiggle. */
   text: string;
   font: CaptionFont;
   /** px at 1080 wide */
@@ -22,6 +23,10 @@ export type CaptionBlock = {
   /** "light" = white text for dark/busy areas, "dark" = navy text for white areas. */
   tone: "light" | "dark";
   sparkles?: boolean;
+  /** "glass" puts the lines on a frosted-glass pill. */
+  style?: "plain" | "glass";
+  /** "rise" = soft blur-in (default), "pop" = bouncy spring for hooks. */
+  motion?: "rise" | "pop";
 };
 
 export type CaptionTheme = {

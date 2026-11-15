@@ -15,24 +15,25 @@
   },
   "captions": [
     {
-      "name": "listen",
-      "startSec": 0.25,
+      "name": "hook",
+      "startSec": 0.2,
       "endSec": 1.55,
-      "top": 495,
+      "top": 505,
       "align": "center",
       "tone": "light",
-      "sparkles": true,
       "lines": [
         {
-          "text": "sugar-dusted sharks",
+          "text": "snow-dipped sharks? \ud83e\udd88",
           "font": "script",
-          "size": 104,
+          "size": 94,
           "color": "accent"
         }
-      ]
+      ],
+      "motion": "pop",
+      "sparkles": true
     },
     {
-      "name": "sweet",
+      "name": "blue-raspberry",
       "startSec": 1.62,
       "endSec": 3.2,
       "top": 215,
@@ -40,25 +41,46 @@
       "tone": "dark",
       "lines": [
         {
-          "text": "a little sweet,",
+          "text": "blue *raspberry,*",
           "font": "serif",
-          "size": 112
+          "size": 108
         }
       ]
     },
     {
-      "name": "crunch",
+      "name": "sugar-blizzard",
       "startSec": 3.28,
       "endSec": 5.27,
-      "top": 1455,
+      "top": 1400,
       "align": "center",
       "tone": "dark",
-      "sparkles": true,
       "lines": [
         {
-          "text": "a lot of chew",
+          "text": "dipped in a",
           "font": "serif",
-          "size": 104
+          "size": 84
+        },
+        {
+          "text": "*sugar* *blizzard* \u2744\ufe0f",
+          "font": "serif",
+          "size": 100
+        }
+      ],
+      "sparkles": true
+    },
+    {
+      "name": "wait-for-it",
+      "startSec": 5.35,
+      "endSec": 6.2,
+      "top": 300,
+      "align": "right",
+      "tone": "light",
+      "lines": [
+        {
+          "text": "wait for it\u2026",
+          "font": "script",
+          "size": 136,
+          "color": "accent"
         }
       ]
     },
@@ -66,20 +88,21 @@
       "name": "frosted",
       "startSec": 6.3,
       "endSec": 8.95,
-      "top": 172,
+      "top": 165,
       "align": "center",
       "tone": "dark",
-      "sparkles": true,
       "lines": [
         {
           "text": "frosted like fresh snow",
           "font": "caps",
-          "size": 34
+          "size": 32
         }
-      ]
+      ],
+      "style": "glass",
+      "sparkles": false
     },
     {
-      "name": "crunch-first",
+      "name": "powder-first",
       "startSec": 9.05,
       "endSec": 10.55,
       "top": 330,
@@ -100,12 +123,11 @@
       "top": 1390,
       "align": "center",
       "tone": "dark",
-      "sparkles": true,
       "lines": [
         {
-          "text": "then the soft",
+          "text": "then the *soft*",
           "font": "serif",
-          "size": 84
+          "size": 88
         },
         {
           "text": "gummy center",
@@ -113,7 +135,8 @@
           "size": 132,
           "color": "accent"
         }
-      ]
+      ],
+      "sparkles": true
     },
     {
       "name": "obsessed",
@@ -122,31 +145,33 @@
       "top": 430,
       "align": "right",
       "tone": "light",
-      "sparkles": true,
       "lines": [
         {
-          "text": "obsessed.",
+          "text": "obsessed \ud83d\udc99",
           "font": "script",
-          "size": 180,
+          "size": 170,
           "color": "accent"
         }
-      ]
+      ],
+      "sparkles": true
     },
     {
-      "name": "favorite",
+      "name": "would-you-try",
       "startSec": 14.25,
       "endSec": 16.25,
-      "top": 172,
+      "top": 165,
       "align": "center",
       "tone": "dark",
-      "sparkles": true,
       "lines": [
         {
-          "text": "your new favorite snack",
-          "font": "caps",
-          "size": 36
+          "text": "would you try these? \ud83d\udc47",
+          "font": "script",
+          "size": 96,
+          "color": "accent"
         }
-      ]
+      ],
+      "motion": "pop",
+      "sparkles": true
     }
   ]
 }
