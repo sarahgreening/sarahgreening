@@ -1,0 +1,133 @@
+{
+  "project": "sample",
+  "renderedAt": "2026-11-15T19:25:52.055Z",
+  "browser": "/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell",
+  "outputs": [
+    {
+      "file": "out/sample/sample-a-tiktok-shop.mp4",
+      "sizeMB": 7.12,
+      "durationSec": 15.019,
+      "video": {
+        "codec": "h264",
+        "profile": "High",
+        "width": 1080,
+        "height": 1920,
+        "pixFmt": "yuv420p",
+        "fps": "30/1",
+        "bitrateKbps": 3597
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": "48000",
+        "channels": 2,
+        "meanVolumeDb": -38.8
+      },
+      "blackRuns": [],
+      "checks": {
+        "video codec is H.264": true,
+        "1080x1920 (9:16)": true,
+        "yuv420p, BT.709 (accurate colour on phones)": true,
+        "frame rate 30fps": true,
+        "audio codec is AAC": true,
+        "duration 15.00s ±0.1s": true,
+        "audio is not silent": true,
+        "no black gaps ≥0.4s": true
+      },
+      "pass": true,
+      "edit": "A - TikTok Shop: Hook & Fast Cuts",
+      "previews": [
+        "out/sample/previews/a-tiktok-shop/t00.80s-hook.png",
+        "out/sample/previews/a-tiktok-shop/t03.90s-title-card.png",
+        "out/sample/previews/a-tiktok-shop/t03.75s-25pct.png",
+        "out/sample/previews/a-tiktok-shop/t07.51s-50pct.png",
+        "out/sample/previews/a-tiktok-shop/t11.26s-75pct.png",
+        "out/sample/previews/a-tiktok-shop/t14.42s-end-card.png",
+        "out/sample/previews/a-tiktok-shop-contact-sheet.jpg"
+      ]
+    },
+    {
+      "file": "out/sample/sample-b-amazon.mp4",
+      "sizeMB": 5.83,
+      "durationSec": 15.019,
+      "video": {
+        "codec": "h264",
+        "profile": "High",
+        "width": 1080,
+        "height": 1920,
+        "pixFmt": "yuv420p",
+        "fps": "30/1",
+        "bitrateKbps": 2907
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": "48000",
+        "channels": 2,
+        "meanVolumeDb": -40
+      },
+      "blackRuns": [],
+      "checks": {
+        "video codec is H.264": true,
+        "1080x1920 (9:16)": true,
+        "yuv420p, BT.709 (accurate colour on phones)": true,
+        "frame rate 30fps": true,
+        "audio codec is AAC": true,
+        "duration 15.00s ±0.1s": true,
+        "audio is not silent": true,
+        "no black gaps ≥0.4s": true
+      },
+      "pass": true,
+      "edit": "B - Amazon Influencer: Product Demo",
+      "previews": [
+        "out/sample/previews/b-amazon/t00.80s-hook.png",
+        "out/sample/previews/b-amazon/t01.50s-title-card.png",
+        "out/sample/previews/b-amazon/t03.75s-25pct.png",
+        "out/sample/previews/b-amazon/t07.51s-50pct.png",
+        "out/sample/previews/b-amazon/t11.26s-75pct.png",
+        "out/sample/previews/b-amazon/t14.42s-end-card.png",
+        "out/sample/previews/b-amazon-contact-sheet.jpg"
+      ]
+    },
+    {
+      "file": "out/sample/sample-c-ugc-review.mp4",
+      "sizeMB": 5.9,
+      "durationSec": 15.019,
+      "video": {
+        "codec": "h264",
+        "profile": "High",
+        "width": 1080,
+        "height": 1920,
+        "pixFmt": "yuv420p",
+        "fps": "30/1",
+        "bitrateKbps": 2948
+      },
+      "audio": {
+        "codec": "aac",
+        "sampleRate": "48000",
+        "channels": 2,
+        "meanVolumeDb": -40.7
+      },
+      "blackRuns": [],
+      "checks": {
+        "video codec is H.264": true,
+        "1080x1920 (9:16)": true,
+        "yuv420p, BT.709 (accurate colour on phones)": true,
+        "frame rate 30fps": true,
+        "audio codec is AAC": true,
+        "duration 15.00s ±0.1s": true,
+        "audio is not silent": true,
+        "no black gaps ≥0.4s": true
+      },
+      "pass": true,
+      "edit": "C - UGC: Honest Review",
+      "previews": [
+        "out/sample/previews/c-ugc-review/t00.80s-hook.png",
+        "out/sample/previews/c-ugc-review/t04.20s-title-card.png",
+        "out/sample/previews/c-ugc-review/t03.75s-25pct.png",
+        "out/sample/previews/c-ugc-review/t07.51s-50pct.png",
+        "out/sample/previews/c-ugc-review/t11.26s-75pct.png",
+        "out/sample/previews/c-ugc-review/t14.42s-end-card.png",
+        "out/sample/previews/c-ugc-review-contact-sheet.jpg"
+      ]
+    }
+  ]
+}

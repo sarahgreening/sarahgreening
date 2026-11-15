@@ -1,0 +1,52 @@
+{
+  "product": {
+    "name": "GLOWLY Hydrating Serum 30 ml",
+    "shortName": "GLOWLY Serum",
+    "price": "$24.99",
+    "brandColor": "#FF5A7A",
+    "accentColor": "#FFE14D",
+    "benefits": [
+      "72-hour hydration",
+      "Fragrance free",
+      "Derm tested"
+    ],
+    "image": "product.png"
+  },
+  "durationSec": 15,
+  "hooks": {
+    "tiktok": "My dry skin was GONE in a week",
+    "amazon": "The serum I keep re-buying",
+    "ugc": "Honest review after 2 weeks"
+  },
+  "scripts": {
+    "tiktok": "This serum fixed my dry skin in one week. Look at that texture. It sinks in with zero sticky feel. Grab it before it sells out again.",
+    "amazon": "This is the GLOWLY hydrating serum I keep repurchasing. Lightweight, fragrance free, and it lasts all day. Full details are in my storefront.",
+    "ugc": "Okay, honest review after two weeks. My skin feels softer and way less flaky. One bottle lasts forever. Would I buy it again? Yes."
+  },
+  "ctas": {
+    "tiktok": "Tap the cart to shop",
+    "amazon": "Link in my storefront",
+    "ugc": "Would you try it?"
+  },
+  "clipHints": {
+    "01-unboxing.mp4": {
+      "focusX": 0.62,
+      "focusY": 0.5,
+      "bestMomentSec": 3,
+      "label": "Unboxing"
+    },
+    "02-texture.mov": {
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "bestMomentSec": 2,
+      "label": "Texture"
+    },
+    "03-results.mp4": {
+      "focusX": 0.3,
+      "focusY": 0.5,
+      "bestMomentSec": 4,
+      "label": "Results"
+    }
+  },
+  "music": null
+}

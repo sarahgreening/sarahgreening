@@ -1,0 +1,48 @@
+{
+  "name": "product-video-editor",
+  "version": "1.0.0",
+  "description": "Reusable 9:16 product video editor (TikTok Shop, Amazon Influencer, UGC) built on Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/bundler": "^4.0.543",
+    "@remotion/captions": "4.0.543",
+    "@remotion/cli": "4.0.543",
+    "@remotion/fonts": "4.0.543",
+    "@remotion/media": "4.0.543",
+    "@remotion/renderer": "^4.0.543",
+    "@remotion/transitions": "4.0.543",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.543",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "new": "node scripts/new.mjs",
+    "placeholders": "node scripts/make-placeholders.mjs",
+    "ingest": "node scripts/ingest.mjs",
+    "plan": "node scripts/plan.mjs",
+    "render": "node scripts/render.mjs",
+    "pipeline": "node scripts/pipeline.mjs",
+    "sample": "node scripts/make-placeholders.mjs && node scripts/pipeline.mjs sample",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

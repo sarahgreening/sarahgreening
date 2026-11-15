@@ -1,0 +1,291 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "maxZoom": 1.2,
+  "product": {
+    "name": "GLOWLY Hydrating Serum 30 ml",
+    "shortName": "GLOWLY Serum",
+    "price": "$24.99",
+    "brandColor": "#FF5A7A",
+    "accentColor": "#FFE14D",
+    "benefits": [
+      "72-hour hydration",
+      "Fragrance free",
+      "Derm tested"
+    ],
+    "image": "media/sample/product.png"
+  },
+  "editName": "C - UGC: Honest Review",
+  "platform": "ugc",
+  "hook": "Honest review after 2 weeks",
+  "hookDurationSec": 2.5,
+  "cta": "Would you try it?",
+  "endCardSec": 2.2,
+  "transitionSec": 0.35,
+  "captionStyle": "karaoke",
+  "titleCard": {
+    "startSec": 2.8,
+    "durationSec": 2.8
+  },
+  "showPrice": false,
+  "showRating": true,
+  "segments": [
+    {
+      "name": "03-results.mp4 (results first)",
+      "kind": "video",
+      "src": "media/sample/03-results.mp4",
+      "srcWidth": 1440,
+      "srcHeight": 1080,
+      "durationSec": 3.2667,
+      "trimStartSec": 3.68,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.3,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1.08,
+      "zoomTo": 1,
+      "transitionIn": "none"
+    },
+    {
+      "name": "02-texture.mov (review)",
+      "kind": "video",
+      "src": "media/sample/02-texture.mp4",
+      "srcWidth": 1080,
+      "srcHeight": 1920,
+      "durationSec": 3.0667,
+      "trimStartSec": 0.6,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.08,
+      "transitionIn": "wipe"
+    },
+    {
+      "name": "01-unboxing.mp4 (review)",
+      "kind": "video",
+      "src": "media/sample/01-unboxing.mp4",
+      "srcWidth": 1920,
+      "srcHeight": 1080,
+      "durationSec": 3.0667,
+      "trimStartSec": 1.6,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.62,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.08,
+      "transitionIn": "wipe",
+      "label": "Unboxing"
+    },
+    {
+      "name": "Product image",
+      "kind": "image",
+      "src": "media/sample/product.png",
+      "srcWidth": 900,
+      "srcHeight": 1300,
+      "durationSec": 2.6333,
+      "fit": "contain",
+      "zoomFrom": 1.02,
+      "zoomTo": 1.08,
+      "transitionIn": "slide-up"
+    },
+    {
+      "name": "03-results.mp4 (final look)",
+      "kind": "video",
+      "src": "media/sample/03-results.mp4",
+      "srcWidth": 1440,
+      "srcHeight": 1080,
+      "durationSec": 2.6,
+      "trimStartSec": 1.82,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.3,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.1,
+      "transitionIn": "fade"
+    }
+  ],
+  "captions": [
+    {
+      "text": "Okay,",
+      "startMs": 300,
+      "endMs": 848,
+      "timestampMs": 598,
+      "confidence": null
+    },
+    {
+      "text": " honest",
+      "startMs": 896,
+      "endMs": 1345,
+      "timestampMs": 1140,
+      "confidence": null
+    },
+    {
+      "text": " review",
+      "startMs": 1384,
+      "endMs": 1833,
+      "timestampMs": 1628,
+      "confidence": null
+    },
+    {
+      "text": " after",
+      "startMs": 1872,
+      "endMs": 2290,
+      "timestampMs": 2099,
+      "confidence": null
+    },
+    {
+      "text": " two",
+      "startMs": 2326,
+      "endMs": 2681,
+      "timestampMs": 2519,
+      "confidence": null
+    },
+    {
+      "text": " weeks.",
+      "startMs": 2712,
+      "endMs": 3475,
+      "timestampMs": 3127,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " My",
+      "startMs": 3541,
+      "endMs": 3865,
+      "timestampMs": 3717,
+      "confidence": null
+    },
+    {
+      "text": " skin",
+      "startMs": 3893,
+      "endMs": 4279,
+      "timestampMs": 4103,
+      "confidence": null
+    },
+    {
+      "text": " feels",
+      "startMs": 4313,
+      "endMs": 4731,
+      "timestampMs": 4540,
+      "confidence": null
+    },
+    {
+      "text": " softer",
+      "startMs": 4767,
+      "endMs": 5216,
+      "timestampMs": 5011,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 5255,
+      "endMs": 5610,
+      "timestampMs": 5448,
+      "confidence": null
+    },
+    {
+      "text": " way",
+      "startMs": 5641,
+      "endMs": 5996,
+      "timestampMs": 5834,
+      "confidence": null
+    },
+    {
+      "text": " less",
+      "startMs": 6027,
+      "endMs": 6414,
+      "timestampMs": 6237,
+      "confidence": null
+    },
+    {
+      "text": " flaky.",
+      "startMs": 6447,
+      "endMs": 7210,
+      "timestampMs": 6862,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " One",
+      "startMs": 7276,
+      "endMs": 7631,
+      "timestampMs": 7469,
+      "confidence": null
+    },
+    {
+      "text": " bottle",
+      "startMs": 7662,
+      "endMs": 8111,
+      "timestampMs": 7906,
+      "confidence": null
+    },
+    {
+      "text": " lasts",
+      "startMs": 8150,
+      "endMs": 8568,
+      "timestampMs": 8377,
+      "confidence": null
+    },
+    {
+      "text": " forever.",
+      "startMs": 8604,
+      "endMs": 9429,
+      "timestampMs": 9052,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Would",
+      "startMs": 9501,
+      "endMs": 9919,
+      "timestampMs": 9728,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 9955,
+      "endMs": 10247,
+      "timestampMs": 10114,
+      "confidence": null
+    },
+    {
+      "text": " buy",
+      "startMs": 10273,
+      "endMs": 10628,
+      "timestampMs": 10466,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 10659,
+      "endMs": 10983,
+      "timestampMs": 10835,
+      "confidence": null
+    },
+    {
+      "text": " again?",
+      "startMs": 11011,
+      "endMs": 11773,
+      "timestampMs": 11425,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Yes.",
+      "startMs": 11839,
+      "endMs": 12539,
+      "timestampMs": 12220,
+      "confidence": null,
+      "pageBreakAfter": true
+    }
+  ]
+}

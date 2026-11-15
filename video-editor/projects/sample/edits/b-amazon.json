@@ -1,0 +1,268 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "maxZoom": 1.2,
+  "product": {
+    "name": "GLOWLY Hydrating Serum 30 ml",
+    "shortName": "GLOWLY Serum",
+    "price": "$24.99",
+    "brandColor": "#FF5A7A",
+    "accentColor": "#FFE14D",
+    "benefits": [
+      "72-hour hydration",
+      "Fragrance free",
+      "Derm tested"
+    ],
+    "image": "media/sample/product.png"
+  },
+  "editName": "B - Amazon Influencer: Product Demo",
+  "platform": "amazon-influencer",
+  "hook": "The serum I keep re-buying",
+  "hookDurationSec": 0,
+  "cta": "Link in my storefront",
+  "endCardSec": 3,
+  "transitionSec": 0.4,
+  "captionStyle": "clean-box",
+  "titleCard": {
+    "startSec": 0.2,
+    "durationSec": 2.6
+  },
+  "showPrice": true,
+  "showRating": true,
+  "segments": [
+    {
+      "name": "Product image",
+      "kind": "image",
+      "src": "media/sample/product.png",
+      "srcWidth": 900,
+      "srcHeight": 1300,
+      "durationSec": 2.7667,
+      "fit": "contain",
+      "zoomFrom": 1,
+      "zoomTo": 1.05,
+      "transitionIn": "none"
+    },
+    {
+      "name": "01-unboxing.mp4 (demo)",
+      "kind": "video",
+      "src": "media/sample/01-unboxing.mp4",
+      "srcWidth": 1920,
+      "srcHeight": 1080,
+      "durationSec": 3.6,
+      "trimStartSec": 3.87,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.62,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.06,
+      "transitionIn": "fade",
+      "label": "72-hour hydration",
+      "labelFromSec": 0.58
+    },
+    {
+      "name": "02-texture.mov (demo)",
+      "kind": "video",
+      "src": "media/sample/02-texture.mp4",
+      "srcWidth": 1080,
+      "srcHeight": 1920,
+      "durationSec": 3.6,
+      "trimStartSec": 0.89,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.06,
+      "transitionIn": "fade",
+      "label": "Fragrance free"
+    },
+    {
+      "name": "03-results.mp4 (demo)",
+      "kind": "video",
+      "src": "media/sample/03-results.mp4",
+      "srcWidth": 1440,
+      "srcHeight": 1080,
+      "durationSec": 3.6333,
+      "trimStartSec": 0.89,
+      "playbackRate": 1,
+      "volume": 1,
+      "focusX": 0.3,
+      "focusY": 0.5,
+      "fit": "cover",
+      "zoomFrom": 1,
+      "zoomTo": 1.06,
+      "transitionIn": "fade",
+      "label": "Derm tested"
+    }
+  ],
+  "captions": [
+    {
+      "text": "This",
+      "startMs": 400,
+      "endMs": 771,
+      "timestampMs": 601,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 803,
+      "endMs": 1113,
+      "timestampMs": 972,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 1140,
+      "endMs": 1481,
+      "timestampMs": 1326,
+      "confidence": null
+    },
+    {
+      "text": " GLOWLY",
+      "startMs": 1511,
+      "endMs": 1941,
+      "timestampMs": 1745,
+      "confidence": null
+    },
+    {
+      "text": " hydrating",
+      "startMs": 1979,
+      "endMs": 2500,
+      "timestampMs": 2262,
+      "confidence": null
+    },
+    {
+      "text": " serum",
+      "startMs": 2545,
+      "endMs": 2946,
+      "timestampMs": 2763,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 2981,
+      "endMs": 3261,
+      "timestampMs": 3133,
+      "confidence": null
+    },
+    {
+      "text": " keep",
+      "startMs": 3285,
+      "endMs": 3656,
+      "timestampMs": 3487,
+      "confidence": null
+    },
+    {
+      "text": " repurchasing.",
+      "startMs": 3688,
+      "endMs": 4630,
+      "timestampMs": 4200,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Lightweight,",
+      "startMs": 4712,
+      "endMs": 5448,
+      "timestampMs": 5112,
+      "confidence": null
+    },
+    {
+      "text": " fragrance",
+      "startMs": 5512,
+      "endMs": 6033,
+      "timestampMs": 5795,
+      "confidence": null
+    },
+    {
+      "text": " free,",
+      "startMs": 6078,
+      "endMs": 6604,
+      "timestampMs": 6364,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 6650,
+      "endMs": 6990,
+      "timestampMs": 6835,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 7020,
+      "endMs": 7331,
+      "timestampMs": 7189,
+      "confidence": null
+    },
+    {
+      "text": " lasts",
+      "startMs": 7358,
+      "endMs": 7758,
+      "timestampMs": 7575,
+      "confidence": null
+    },
+    {
+      "text": " all",
+      "startMs": 7793,
+      "endMs": 8134,
+      "timestampMs": 7978,
+      "confidence": null
+    },
+    {
+      "text": " day.",
+      "startMs": 8163,
+      "endMs": 8834,
+      "timestampMs": 8528,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Full",
+      "startMs": 8893,
+      "endMs": 9263,
+      "timestampMs": 9094,
+      "confidence": null
+    },
+    {
+      "text": " details",
+      "startMs": 9296,
+      "endMs": 9756,
+      "timestampMs": 9546,
+      "confidence": null
+    },
+    {
+      "text": " are",
+      "startMs": 9797,
+      "endMs": 10137,
+      "timestampMs": 9982,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 10167,
+      "endMs": 10477,
+      "timestampMs": 10336,
+      "confidence": null
+    },
+    {
+      "text": " my",
+      "startMs": 10504,
+      "endMs": 10815,
+      "timestampMs": 10673,
+      "confidence": null
+    },
+    {
+      "text": " storefront.",
+      "startMs": 10842,
+      "endMs": 11723,
+      "timestampMs": 11321,
+      "confidence": null,
+      "pageBreakAfter": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "product": {
+    "name": "Brand Product Full Name 50 ml",
+    "shortName": "Product Name",
+    "price": "$19.99",
+    "brandColor": "#3366FF",
+    "accentColor": "#FFE14D",
+    "benefits": ["Benefit one", "Benefit two", "Benefit three"],
+    "image": "product.png"
+  },
+  "durationSec": 15,
+  "maxZoom": 1.2,
+  "hooks": {
+    "tiktok": "I can't believe this works",
+    "amazon": "The one product I always re-buy",
+    "ugc": "Honest review after 2 weeks"
+  },
+  "scripts": {
+    "tiktok": "Write the caption text for the TikTok Shop edit here. Keep it to about thirty words for fifteen seconds.",
+    "amazon": "Write the caption text for the Amazon Influencer edit here.",
+    "ugc": "Write the caption text for the UGC review edit here."
+  },
+  "ctas": {
+    "tiktok": "Tap the cart to shop",
+    "amazon": "Link in my storefront",
+    "ugc": "Would you try it?"
+  },
+  "clipHints": {
+    "01-example.mov": { "focusX": 0.5, "focusY": 0.5, "bestMomentSec": 2, "label": "Unboxing" }
+  },
+  "music": null
+}

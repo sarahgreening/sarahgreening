@@ -1,0 +1,56 @@
+import { Composition, Folder } from "remotion";
+import { calculateProductVideoMetadata, ProductVideo } from "./ProductVideo";
+import type { EditSpec } from "./types";
+// Written by `npm run plan -- <project>`: the three edits of the last planned
+// project, so you can preview and tweak them in Remotion Studio.
+import preview from "./studio-preview.json";
+
+const edits = preview.edits as unknown as EditSpec[];
+
+export const RemotionRoot: React.FC = () => {
+  return (
+    <Folder name="Product-Videos">
+      {/* Generic composition used by scripts/render.mjs (props passed at render time). */}
+      <Composition
+        id="ProductVideo"
+        component={ProductVideo}
+        durationInFrames={450}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={edits[0]}
+        calculateMetadata={calculateProductVideoMetadata}
+      />
+      <Composition
+        id="Edit-A"
+        component={ProductVideo}
+        durationInFrames={450}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={edits[0]}
+        calculateMetadata={calculateProductVideoMetadata}
+      />
+      <Composition
+        id="Edit-B"
+        component={ProductVideo}
+        durationInFrames={450}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={edits[1]}
+        calculateMetadata={calculateProductVideoMetadata}
+      />
+      <Composition
+        id="Edit-C"
+        component={ProductVideo}
+        durationInFrames={450}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={edits[2]}
+        calculateMetadata={calculateProductVideoMetadata}
+      />
+    </Folder>
+  );
+};
