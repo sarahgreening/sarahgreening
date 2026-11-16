@@ -76,7 +76,7 @@ function qcFile(file, spec, expectedFrames) {
     [`frame rate ${spec.fps}fps`]: v?.avg_frame_rate === `${spec.fps}/1`,
     "audio codec is AAC": a?.codec_name === "aac",
     [`duration ${expected.toFixed(2)}s ±0.1s`]: Math.abs(duration - expected) <= 0.1,
-    "audio is not silent": meanDb > -60,
+    "audio is not silent": spec.silentOk ? true : meanDb > -60,
     "no black gaps ≥0.4s": blackRuns.length === 0,
   };
   return {

@@ -1,0 +1,251 @@
+{
+  "composition": "PhotoStory",
+  "editName": "Vans Floral - UGC Photo Story",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "background": "#E7E4DF",
+  "transitionSec": 0.4,
+  "maxZoom": 1.15,
+  "silentOk": true,
+  "theme": {
+    "accent": "#8B5A3C",
+    "accentOnDark": "#F1DCC0",
+    "inkLight": "#FFFFFF",
+    "inkDark": "#3B2A22"
+  },
+  "scenes": [
+    {
+      "name": "Model intro",
+      "src": "media/vans-floral-ugc/01-model.png",
+      "srcWidth": 1147,
+      "srcHeight": 1371,
+      "durationSec": 3.2,
+      "fit": "cover",
+      "focusX": 0.62,
+      "focusY": 0.35,
+      "zoomFrom": 1.12,
+      "zoomTo": 1.0,
+      "transitionIn": "none"
+    },
+    {
+      "name": "Side view",
+      "src": "media/vans-floral-ugc/02-side.jpg",
+      "srcWidth": 1206,
+      "srcHeight": 1408,
+      "durationSec": 3.2,
+      "fit": "contain",
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "zoomFrom": 1.0,
+      "zoomTo": 1.05,
+      "transitionIn": "slide-left",
+      "callouts": [
+        {
+          "text": "embroidered flowers",
+          "x": 0.76,
+          "y": 0.53,
+          "labelX": 0.68,
+          "labelY": 0.8,
+          "delaySec": 0.8
+        },
+        {
+          "text": "white side stripe",
+          "x": 0.62,
+          "y": 0.508,
+          "labelX": 0.3,
+          "labelY": 0.87,
+          "delaySec": 1.3
+        }
+      ]
+    },
+    {
+      "name": "Embroidery close-up",
+      "src": "media/vans-floral-ugc/05-detail.jpg",
+      "srcWidth": 1206,
+      "srcHeight": 1373,
+      "durationSec": 2.6,
+      "fit": "cover",
+      "focusX": 0.3,
+      "focusY": 0.5,
+      "zoomFrom": 1.0,
+      "zoomTo": 1.12,
+      "transitionIn": "fade"
+    },
+    {
+      "name": "Top + sole",
+      "src": "media/vans-floral-ugc/03-top-sole.jpg",
+      "srcWidth": 1206,
+      "srcHeight": 1387,
+      "durationSec": 3.2,
+      "fit": "contain",
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "zoomFrom": 1.0,
+      "zoomTo": 1.04,
+      "transitionIn": "wipe"
+    },
+    {
+      "name": "Back view",
+      "src": "media/vans-floral-ugc/04-back.jpg",
+      "srcWidth": 1206,
+      "srcHeight": 1408,
+      "durationSec": 2.4,
+      "fit": "contain",
+      "focusX": 0.5,
+      "focusY": 0.5,
+      "zoomFrom": 1.0,
+      "zoomTo": 1.05,
+      "transitionIn": "fade"
+    },
+    {
+      "name": "Model outro",
+      "src": "media/vans-floral-ugc/01-model.png",
+      "srcWidth": 1147,
+      "srcHeight": 1371,
+      "durationSec": 2.4,
+      "fit": "cover",
+      "focusX": 0.62,
+      "focusY": 0.4,
+      "zoomFrom": 1.0,
+      "zoomTo": 1.06,
+      "transitionIn": "fade"
+    }
+  ],
+  "captions": [
+    {
+      "name": "hook",
+      "startSec": 0.2,
+      "endSec": 2.75,
+      "top": 200,
+      "align": "center",
+      "tone": "light",
+      "lines": [
+        {
+          "text": "the cutest fall",
+          "font": "serif",
+          "size": 84
+        },
+        {
+          "text": "sneakers ever \ud83e\udd0e",
+          "font": "script",
+          "size": 124,
+          "color": "accent"
+        }
+      ],
+      "motion": "pop",
+      "sparkles": true
+    },
+    {
+      "name": "chocolate",
+      "startSec": 3.1,
+      "endSec": 5.6,
+      "top": 330,
+      "align": "center",
+      "tone": "dark",
+      "lines": [
+        {
+          "text": "*chocolate* brown",
+          "font": "serif",
+          "size": 96
+        },
+        {
+          "text": "+ tiny flowers",
+          "font": "script",
+          "size": 116,
+          "color": "accent"
+        }
+      ],
+      "sparkles": true
+    },
+    {
+      "name": "embroidery",
+      "startSec": 5.85,
+      "endSec": 7.95,
+      "top": 1300,
+      "align": "center",
+      "tone": "dark",
+      "lines": [
+        {
+          "text": "the *embroidery* though \ud83e\udd0d",
+          "font": "serif",
+          "size": 64
+        }
+      ],
+      "style": "glass"
+    },
+    {
+      "name": "insole",
+      "startSec": 8.15,
+      "endSec": 10.6,
+      "top": 175,
+      "align": "center",
+      "tone": "dark",
+      "lines": [
+        {
+          "text": "cushy insole,",
+          "font": "serif",
+          "size": 88
+        },
+        {
+          "text": "waffle grip",
+          "font": "script",
+          "size": 112,
+          "color": "accent"
+        }
+      ],
+      "sparkles": true
+    },
+    {
+      "name": "angles",
+      "startSec": 10.85,
+      "endSec": 12.6,
+      "top": 360,
+      "align": "center",
+      "tone": "dark",
+      "lines": [
+        {
+          "text": "cute from",
+          "font": "serif",
+          "size": 92
+        },
+        {
+          "text": "every angle \u2728",
+          "font": "script",
+          "size": 120,
+          "color": "accent"
+        }
+      ],
+      "sparkles": true
+    },
+    {
+      "name": "would-you",
+      "startSec": 12.85,
+      "endSec": 14.95,
+      "top": 200,
+      "align": "center",
+      "tone": "light",
+      "lines": [
+        {
+          "text": "would you wear these? \ud83d\udc47",
+          "font": "script",
+          "size": 108,
+          "color": "accent"
+        }
+      ],
+      "motion": "pop",
+      "sparkles": true
+    }
+  ],
+  "productCard": {
+    "startSec": 13.0,
+    "endSec": 15.0,
+    "image": "media/vans-floral-ugc/02-side.jpg",
+    "imageWidth": 1206,
+    "imageHeight": 1408,
+    "kicker": "Vans",
+    "title": "brown floral sneakers",
+    "cta": "tap the link \ud83e\udd0e",
+    "top": 1230
+  }
+}
